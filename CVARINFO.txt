@@ -1,2 +1,4 @@
 server float sv_monsterhealthmul = 1.0;
 server float sv_monsterdamagemul = 1.0;
+server float sv_monstersizemul = 1.0;
+server float sv_monsterspeedmul = 1.0;

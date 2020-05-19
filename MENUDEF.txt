@@ -8,7 +8,8 @@ OptionMenu "MonsterTweaks" {
 	StaticText "Requires a level restart", yellow
 	StaticText ""
 	
-	Slider "Monster Health Multiplier","sv_monsterhealthmul",0.0,10000.0,0.5,1
-	Slider "Monster Damage Multiplier","sv_monsterdamagemul",0.0,10000.0,0.5,1
-	
+	Slider "Monster Health Multiplier",	"sv_monsterhealthmul",	0.0,10000.0,0.5,1
+	Slider "Monster Damage Multiplier",	"sv_monsterdamagemul",	0.0,10000.0,0.5,1
+	Slider "Monster Speed Multiplier",	"sv_monsterspeedmul",	0.0,100.0,0.1,1
+	Slider "Monster Size Multiplier",	"sv_monstersizemul",	0.1,20.0,0.1,1
 }
