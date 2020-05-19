@@ -1,0 +1,14 @@
+AddOptionMenu "OptionsMenu" {
+	Submenu "Monster Tweaks", "MonsterTweaks"
+}
+
+OptionMenu "MonsterTweaks" {
+	Title "Monster Tweaks"
+
+	StaticText "Requires a level restart", yellow
+	StaticText ""
+	
+	Slider "Monster Health Multiplier","sv_monsterhealthmul",0.0,10000.0,0.5,1
+	Slider "Monster Damage Multiplier","sv_monsterdamagemul",0.0,10000.0,0.5,1
+	
+}
